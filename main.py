@@ -30,3 +30,5 @@ while True:
     except Exception as e:
         send_telegram_message(f"出错了：{e}")
     time.sleep(3600)
+if __name__ == "__main__":
+    send_telegram_message("✅ 测试成功：机器人已部署并可以正常发送消息！")
